@@ -1,0 +1,53 @@
+
+#login-container{
+    margin: 200px auto;
+    width: 400px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box{
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 3px;
+    width: 280px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.login-label{
+    margin: 0;
+}
+
+#title-text{
+    font-family: 'Comic Sans MS';
+    font-size: 60px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#submit-button{
+    display: block;
+    margin: 25px auto;
+    border-radius: 3px;
+    border-style: none;
+    background-color: #5599ee;
+    color: #f9f9f9;
+    width: 90px;
+    height: 35px;
+
+}
+
+.error-message{
+    color: #ee7777;
+    text-align: center;
+}
+
+.spinner-container{
+    display: flex;
+    justify-content: center;
+}

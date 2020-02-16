@@ -1,0 +1,21 @@
+
+.fav-button{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #f9f9f9;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.add-fav{
+    background-color: #eebb00;
+}
+
+.remove-fav{
+    background-color: #ee7777;
+}

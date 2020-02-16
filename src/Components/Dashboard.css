@@ -1,0 +1,43 @@
+
+#dashboard-container{
+    width: 70%;
+    margin: 0 auto;
+    min-height: 1200px;
+}
+
+#table-area{
+    width: 85%;
+    margin: 0 auto;
+}
+
+#table-search{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+#locations-header{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+#filter-button-container{
+    position: absolute;
+    top: 14%;
+    right: 18%;
+    z-index: 1001;
+}
+
+#filter-area-container{
+    position: absolute;
+    top: 18%;
+    right: 18%;
+    z-index: 1002;
+}
+
+@media screen and (max-width: 768px) {
+    #table-area{
+        width: 100%;
+    }
+}

@@ -1,0 +1,81 @@
+
+#navbar-container{
+    background-color: #f9f9f9;
+    height: 80px;
+}
+
+#navbar-title{
+    font-family: 'Comic Sans MS';
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+#add-button{
+    border-radius: 3px;
+    border-style: none;
+    background-color: #5599ee;
+    color: #f9f9f9;
+    width: 90px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+#navbar-menu{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#menu-icon{
+    height: 40px;
+    width: 40px;
+}
+
+#navbar-buttons{
+    position: relative;
+}
+
+.logout-button-visible{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    color: #ee7777;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+    width: 140px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.logout-button-hidden{
+    display: none;
+}
+
+.visible-menu{
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+
+    #add-button{
+        width: 70px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    #navbar-title{
+        font-size: 30px;
+        margin-left: 0px;
+    }
+
+    #navbar-menu{
+        margin-right: 0px;
+    }
+}

@@ -1,0 +1,21 @@
+
+#filter-button{
+    width: 100px;
+    height: 30px;
+    background-color: #fafafa;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#filter-icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#filter-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+}
